@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <form class="clock">
+      <div class="js-clock">
+        <h1>00:00</h1>
+        <input type="radio" name="hourStyle" value="12" />12시간
+        <input type="radio" name="hourStyle" value="24" checked="checked" />
+        24시간
+      </div>
+    </form>
+
+    <div class="greeting-user">
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+    </div>
+
+    <h1>Tasks</h1>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Add task" id="todoText" />
+    </form>
+    <h2>Pending</h2>
+    <ul class="pending"></ul>
+    <h2>Finished</h2>
+    <ul class="finished"></ul>
+    <footer><span class="weather-in-html"></span></footer>
+
+    <script src="clock.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="todo.js"></script>
+    <script src="greeting.js"></script>
+  </body>
+</html>

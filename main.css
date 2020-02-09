@@ -1,0 +1,111 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(77, 77, 77);
+}
+button {
+  background: none;
+  border: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+.js-clock {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: white;
+  margin: 130px auto 0px auto;
+  text-align: center;
+  /* text-shadow: 1px 1px 1px darkgray; */
+}
+
+.js-toDoForm {
+  text-align: center;
+}
+
+.js-toDoList {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+input {
+  text-align: center;
+  width: 300px;
+  height: 35px;
+  font-size: 25px;
+  color: white;
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.greeting-user {
+  text-align: center;
+}
+
+.form,
+.greetings {
+  font-size: 2.5rem;
+  display: none;
+}
+
+.showing {
+  display: block;
+  color: white;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+  overflow: hidden;
+}
+
+.weather-in-html {
+  color: white;
+  top: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  font-size: 0.8em;
+  font-weight: 100;
+  text-align: right;
+  z-index: 10;
+}
+h1,
+h2,
+li {
+  color: white;
+  text-align: center;
+}
